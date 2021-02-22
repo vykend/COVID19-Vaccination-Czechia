@@ -1,0 +1,38 @@
+name: CI Build
+
+on: [push]
+    
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up python 3.8
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.8'
+      - name: Install dependencies
+        run: |
+            python -m pip install --upgrade pip
+            pip install pandas
+            if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+      - name: Save current vaccination data
+        run: python vaccination_czechia.py
+
+      - name: git check in
+        env:
+          GIT_OWNER_EMAIL: ${{ secrets.GIT_OWNER_EMAIL }} 
+          PUSH_TOKEN: ${{ secrets.PUSH_TOKEN }}
+        run: |
+          git config user.email "$GIT_OWNER_EMAIL"
+          git config user.name "vykend"
+          if [[ `git status --porcelain` ]]; then
+            git add .
+            git commit -a -m "add todays data"
+            git remote rm origin
+            git remote add origin https://vykend:$PUSH_TOKEN@github.com/vykend/COVID19-Vaccination-Czechia.git
+            git push origin HEAD:master
+          else
+            echo 'unable to detech changes'
+          fi
