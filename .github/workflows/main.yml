@@ -18,21 +18,15 @@ jobs:
             pip install pandas
             if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
       - name: Save current vaccination data
-        run: python vaccination_czechia.py
+        run: python vaccinations_czechia.py
 
-      - name: git check in
-        env:
-          GIT_OWNER_EMAIL: ${{ secrets.GIT_OWNER_EMAIL }} 
-          PUSH_TOKEN: ${{ secrets.PUSH_TOKEN }}
-        run: |
-          git config user.email "$GIT_OWNER_EMAIL"
-          git config user.name "vykend"
-          if [[ `git status --porcelain` ]]; then
-            git add .
-            git commit -a -m "add todays data"
-            git remote rm origin
-            git remote add origin https://vykend:$PUSH_TOKEN@github.com/vykend/COVID19-Vaccination-Czechia.git
-            git push origin HEAD:master
-          else
-            echo 'unable to detech changes'
-          fi
+      - name: push
+        uses: github-actions-x/commit@v2.7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          push-branch: 'master'
+          commit-message: 'add todays vaccination data'
+          force-add: 'true'
+          files: aggregation.csv by_date_and_region.csv by_manufacturer.csv by_region.csv
+          name: vykend
+          email: vykend@gmail.com
