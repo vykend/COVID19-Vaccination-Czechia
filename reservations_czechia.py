@@ -49,7 +49,7 @@ def base_pipeline(input: pd.DataFrame) -> pd.DataFrame:
 def main():
     source = "https://onemocneni-aktualne.mzcr.cz/api/v2/covid-19/ockovani-registrace.csv"
 
-    by_date_output = "registration_by_date.csv"
+    by_date_output = "registrations_by_date.csv"
     by_region_output = "registrations_by_region.csv"
     by_date_and_region_output = "registrations_by_date_and_region.csv"
 
