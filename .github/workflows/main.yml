@@ -2,7 +2,7 @@ name: CI Build
 
 on:
   schedule:
-   - cron: 15 7 * * *
+   - cron: 30 7 * * *
     
 jobs:
   build:
@@ -21,6 +21,8 @@ jobs:
             if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
       - name: Save current vaccination data
         run: python vaccinations_czechia.py
+      - name: Save registrations data
+        run: python registrations_czechia.py
 
       - name: push
         uses: github-actions-x/commit@v2.7
