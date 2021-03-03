@@ -1,8 +1,9 @@
-name: CI Build
+name: Get actual data
 
-on: 
+on:
+  push:
   schedule:
-   - cron: 30 7 * * *
+    - cron: 30 7 * * *
     
 jobs:
   build:
@@ -33,4 +34,4 @@ jobs:
           force-add: 'true'
           files: aggregation.csv by_date_and_region.csv by_manufacturer.csv by_region.csv registrations_by_date.csv registrations_by_date_and_region.csv registrations_by_region.csv
           name: vykend
-          email: vykend@gmail.com
+          email: vykend@users.noreply.github.com
