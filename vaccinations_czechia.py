@@ -86,8 +86,11 @@ def breakdown_per_vaccine(input: pd.DataFrame) -> pd.DataFrame:
             }
         )
     )
+    
+def breakdown_per_date_and_region(input: pd.DataFrame) -> pd.DataFrame:
+    return input.groupby(["datum","kraj_nazev"]).size().unstack()
 
-
+"""
 def breakdown_per_date_and_region(input: pd.DataFrame) -> pd.DataFrame:
     return (
         input.groupby(by=["datum", "kraj_nazev"], as_index=False)
@@ -104,7 +107,7 @@ def breakdown_per_date_and_region(input: pd.DataFrame) -> pd.DataFrame:
             }
         )
     )
-
+"""
 
 def breakdown_per_region(input: pd.DataFrame) -> pd.DataFrame:
     return (
@@ -206,7 +209,7 @@ def main():
     base = read(source).pipe(base_pipeline)
 
     base.pipe(breakdown_per_vaccine).to_csv(by_manufacturer_output, index=False)
-    base.pipe(breakdown_per_date_and_region).to_csv(by_date_and_region_output, index=False)
+    base.pipe(breakdown_per_date_and_region).to_csv(by_date_and_region_output)
     base.pipe(breakdown_per_region).to_csv(by_region_output, index=False)
     base.pipe(global_pipeline).to_csv(global_output, index=False)
 
