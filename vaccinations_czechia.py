@@ -88,7 +88,11 @@ def breakdown_per_vaccine(input: pd.DataFrame) -> pd.DataFrame:
     )
     
 def breakdown_per_date_and_region(input: pd.DataFrame) -> pd.DataFrame:
-    return input.groupby(["datum","kraj_nazev"]).size().unstack()
+    temp = input.groupby(["datum","kraj_nazev"]).size().unstack(fill_value=0)
+    float_col = temp.select_dtypes(include=['float64'])
+    for col in float_col.columns.values:
+        temp[col] = temp[col].astype('int64')
+    return temp
 
 """
 def breakdown_per_date_and_region(input: pd.DataFrame) -> pd.DataFrame:
