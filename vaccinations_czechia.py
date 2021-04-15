@@ -22,8 +22,10 @@ vaccine_mapping = {
     "Comirnaty": "Pfizer/BioNTech",
     "COVID-19 Vaccine Moderna": "Moderna",
     "VAXZEVRIA": "Oxford/AstraZeneca",
+    "COVID-19 Vaccine Janssen": "Johnson&Johnson",
 }
 
+one_dose_vaccines = ["Johnson&Johnson"]
 
 def read(source: str) -> pd.DataFrame:
     return pd.read_csv(source, parse_dates=["datum"])
@@ -183,6 +185,16 @@ def enrich_cumulated_sums(input: pd.DataFrame) -> pd.DataFrame:
         }
     )
 
+def infer_one_dose_vaccines(input: pd.DataFrame) -> pd.DataFrame:
+    input.loc[input.vakcina.isin(one_dose_vaccines), 2] = input[1]
+    return input
+
+
+def infer_total_vaccinations(input: pd.DataFrame) -> pd.DataFrame:
+    input.loc[input.vakcina.isin(one_dose_vaccines), "total_vaccinations"] = input[1].fillna(0)
+    input.loc[-input.vakcina.isin(one_dose_vaccines), "total_vaccinations"] = input[1].fillna(0) + input[2].fillna(0)
+    return input
+
 
 def global_enrichments(input: pd.DataFrame) -> pd.DataFrame:
     return (
@@ -194,6 +206,8 @@ def global_enrichments(input: pd.DataFrame) -> pd.DataFrame:
 def global_pipeline(input: pd.DataFrame) -> pd.DataFrame:
     return (
         input.pipe(aggregate_by_date_vaccine)
+        .pipe(infer_one_dose_vaccines)
+        .pipe(infer_total_vaccinations)
         .pipe(aggregate_by_date)
         .pipe(translate_columns)
         .pipe(format_date)
