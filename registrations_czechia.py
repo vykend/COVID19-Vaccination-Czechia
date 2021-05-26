@@ -29,6 +29,10 @@ def check_columns(input: pd.DataFrame) -> pd.DataFrame:
         "stat",
         "rezervace",
         "datum_rezervace",
+        'zavora_status',
+        'prioritni_skupina',
+        'zablokovano',
+        'duvod_blokace'
     ]
     if list(input.columns) != expected:
         raise ValueError(
