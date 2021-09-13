@@ -17,244 +17,245 @@ date,vaccine,people_vaccinated,people_fully_vaccinated,total_vaccinations
 2021-01-11,Pfizer/BioNTech,59757,4,59761
 2021-01-12,Pfizer/BioNTech,73157,6,73163
 2021-01-13,Pfizer/BioNTech,86654,6,86660
-2021-01-14,"Moderna, Pfizer/BioNTech",101847,8,101855
-2021-01-15,"Moderna, Pfizer/BioNTech",115811,8,115819
-2021-01-16,"Moderna, Pfizer/BioNTech",119189,10,119199
-2021-01-17,"Moderna, Pfizer/BioNTech",121792,651,122443
-2021-01-18,"Moderna, Pfizer/BioNTech",134261,2473,136734
-2021-01-19,"Moderna, Pfizer/BioNTech",146812,5185,151997
-2021-01-20,"Moderna, Pfizer/BioNTech",160440,7829,168269
-2021-01-21,"Moderna, Pfizer/BioNTech",176041,9560,185601
-2021-01-22,"Moderna, Pfizer/BioNTech",190860,10603,201463
-2021-01-23,"Moderna, Pfizer/BioNTech",194154,11474,205628
-2021-01-24,"Moderna, Pfizer/BioNTech",196398,12343,208741
-2021-01-25,"Moderna, Pfizer/BioNTech",206011,15314,221325
-2021-01-26,"Moderna, Pfizer/BioNTech",216523,19284,235807
-2021-01-27,"Moderna, Pfizer/BioNTech",225531,23798,249329
-2021-01-28,"Moderna, Pfizer/BioNTech",232592,29907,262499
-2021-01-29,"Moderna, Pfizer/BioNTech",238787,37780,276567
-2021-01-30,"Moderna, Pfizer/BioNTech",239518,38867,278385
-2021-01-31,"Moderna, Pfizer/BioNTech",240225,40045,280270
-2021-02-01,"Moderna, Pfizer/BioNTech",244183,47965,292148
-2021-02-02,"Moderna, Pfizer/BioNTech",248309,58175,306484
-2021-02-03,"Moderna, Pfizer/BioNTech",252710,69152,321862
-2021-02-04,"Moderna, Pfizer/BioNTech",257599,82105,339704
-2021-02-05,"Moderna, Pfizer/BioNTech",263042,92745,355787
-2021-02-06,"Moderna, Pfizer/BioNTech",263883,95092,358975
-2021-02-07,"Moderna, Pfizer/BioNTech",264731,97578,362309
-2021-02-08,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",268777,108953,377730
-2021-02-09,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",273850,120863,394713
-2021-02-10,"Moderna, Pfizer/BioNTech",279332,134059,413391
-2021-02-11,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",285625,150223,435848
-2021-02-12,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",292355,164897,457252
-2021-02-13,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",293941,167875,461816
-2021-02-14,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",294932,169250,464182
-2021-02-15,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",301317,178578,479895
-2021-02-16,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",310015,187622,497637
-2021-02-17,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",319695,195896,515591
-2021-02-18,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",331985,203927,535912
-2021-02-19,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",343818,211237,555055
-2021-02-20,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",345793,212408,558201
-2021-02-21,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",346901,213422,560323
-2021-02-22,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",356998,219422,576420
-2021-02-23,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",369903,226369,596272
-2021-02-24,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",383747,232378,616125
-2021-02-25,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",401692,237907,639599
-2021-02-26,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",417826,243230,661056
-2021-02-27,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",420829,243780,664609
-2021-02-28,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",423171,244325,667496
-2021-03-01,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",442672,247739,690411
-2021-03-02,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",469844,251271,721115
-2021-03-03,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",500619,255755,756374
-2021-03-04,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",533773,260415,794188
-2021-03-05,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",562506,265801,828307
-2021-03-06,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",574618,266643,841261
-2021-03-07,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",586018,267475,853493
-2021-03-08,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",615632,272293,887925
-2021-03-09,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",651816,278646,930462
-2021-03-10,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",692962,285582,978544
-2021-03-11,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",737639,293928,1031567
-2021-03-12,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",776280,302372,1078652
-2021-03-13,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",793317,303658,1096975
-2021-03-14,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",805398,304792,1110190
-2021-03-15,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",833685,313552,1147237
-2021-03-16,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",872493,324054,1196547
-2021-03-17,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",909902,334525,1244427
-2021-03-18,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",947759,346909,1294668
-2021-03-19,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",982106,360488,1342594
-2021-03-20,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",997208,362503,1359711
-2021-03-21,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",1004594,364047,1368641
-2021-03-22,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",1029004,376505,1405509
-2021-03-23,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",1055522,389822,1445344
-2021-03-24,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",1082331,405518,1487849
-2021-03-25,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",1108602,423334,1531936
-2021-03-26,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",1133340,440791,1574131
-2021-03-27,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",1141752,445619,1587371
-2021-03-28,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",1147285,449749,1597034
-2021-03-29,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",1166307,470398,1636705
-2021-03-30,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",1190920,492511,1683431
-2021-03-31,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",1213932,519522,1733454
-2021-04-01,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",1239465,551457,1790922
-2021-04-02,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",1246328,564230,1810558
-2021-04-03,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",1249912,575131,1825043
-2021-04-04,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",1252384,583926,1836310
-2021-04-05,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",1254735,591089,1845824
-2021-04-06,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",1270795,620277,1891072
-2021-04-07,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",1294126,642396,1936522
-2021-04-08,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",1332612,673262,2005874
-2021-04-09,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",1371845,703269,2075114
-2021-04-10,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",1387224,718540,2105764
-2021-04-11,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",1396949,728550,2125499
-2021-04-12,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",1435015,753528,2188543
-2021-04-13,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",1471102,779440,2250542
-2021-04-14,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",1509800,806756,2316556
-2021-04-15,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",1557484,832427,2389911
-2021-04-16,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",1602014,858010,2460024
-2021-04-17,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",1618627,867015,2485642
-2021-04-18,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",1631560,871984,2503544
-2021-04-19,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",1675441,887367,2562808
-2021-04-20,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",1717541,903174,2620715
-2021-04-21,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",1765218,917428,2682646
-2021-04-22,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",1819644,934765,2754409
-2021-04-23,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",1869555,946741,2816296
-2021-04-24,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",1887354,951962,2839316
-2021-04-25,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",1902012,955952,2857964
-2021-04-26,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",1951568,963474,2915042
-2021-04-27,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2000490,975632,2976122
-2021-04-28,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2059200,989572,3048772
-2021-04-29,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2124699,1005382,3130081
-2021-04-30,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2186856,1015282,3202138
-2021-05-01,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2206139,1018692,3224831
-2021-05-02,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2225021,1020938,3245959
-2021-05-03,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2292220,1025972,3318192
-2021-05-04,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2358633,1034240,3392873
-2021-05-05,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2431734,1043581,3475315
-2021-05-06,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2512076,1054190,3566266
-2021-05-07,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2589312,1064184,3653496
-2021-05-08,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2618704,1065902,3684606
-2021-05-09,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2642864,1067090,3709954
-2021-05-10,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2715566,1074223,3789789
-2021-05-11,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2791618,1082975,3874593
-2021-05-12,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2871417,1091997,3963414
-2021-05-13,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2955386,1101102,4056488
-2021-05-14,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",3034744,1108825,4143569
-2021-05-15,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",3066570,1111000,4177570
-2021-05-16,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",3092308,1112210,4204518
-2021-05-17,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",3164777,1118878,4283655
-2021-05-18,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",3236673,1131840,4368513
-2021-05-19,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",3314087,1146895,4460982
-2021-05-20,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",3389477,1173801,4563278
-2021-05-21,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",3458211,1201426,4659637
-2021-05-22,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",3490530,1212499,4703029
-2021-05-23,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",3512828,1221461,4734289
-2021-05-24,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",3559887,1254950,4814837
-2021-05-25,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",3611690,1290602,4902292
-2021-05-26,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",3679378,1327999,5007377
-2021-05-27,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",3740710,1375233,5115943
-2021-05-28,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",3802358,1421647,5224005
-2021-05-29,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",3831496,1438694,5270190
-2021-05-30,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",3853826,1453077,5306903
-2021-05-31,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",3909516,1500446,5409962
-2021-06-01,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",3968509,1548776,5517285
-2021-06-02,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",4031343,1602658,5634001
-2021-06-03,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",4089544,1662766,5752310
-2021-06-04,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",4152600,1720059,5872659
-2021-06-05,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",4186726,1738820,5925546
-2021-06-06,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",4213622,1753898,5967520
-2021-06-07,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",4277279,1809442,6086721
-2021-06-08,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",4341224,1864322,6205546
-2021-06-09,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",4400349,1928641,6328990
-2021-06-10,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",4454157,1999613,6453770
-2021-06-11,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",4506218,2069200,6575418
-2021-06-12,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",4538187,2089916,6628103
-2021-06-13,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",4562181,2108256,6670437
-2021-06-14,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",4605145,2182506,6787651
-2021-06-15,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",4649748,2254704,6904452
-2021-06-16,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",4692452,2332778,7025230
-2021-06-17,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",4731805,2415710,7147515
-2021-06-18,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",4774153,2496063,7270216
-2021-06-19,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",4795871,2525268,7321139
-2021-06-20,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",4813228,2549013,7362241
-2021-06-21,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",4845710,2627440,7473150
-2021-06-22,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",4878642,2709553,7588195
-2021-06-23,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",4910274,2794648,7704922
-2021-06-24,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",4940090,2884561,7824651
-2021-06-25,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",4971101,2970537,7941638
-2021-06-26,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",4986936,3005255,7992191
-2021-06-27,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5000875,3031820,8032695
-2021-06-28,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5029269,3116882,8146151
-2021-06-29,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5058498,3203250,8261748
-2021-06-30,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5085982,3294072,8380054
-2021-07-01,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5109904,3383954,8493858
-2021-07-02,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5136590,3469623,8606213
-2021-07-03,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5143656,3501055,8644711
-2021-07-04,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5151185,3522804,8673989
-2021-07-05,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5158521,3548100,8706621
-2021-07-06,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5163905,3575644,8739549
-2021-07-07,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5189660,3654471,8844131
-2021-07-08,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5216195,3724663,8940858
-2021-07-09,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5244017,3793802,9037819
-2021-07-10,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5253332,3822347,9075679
-2021-07-11,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5261838,3845176,9107014
-2021-07-12,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5289339,3914170,9203509
-2021-07-13,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5315498,3983935,9299433
-2021-07-14,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5341312,4055834,9397146
-2021-07-15,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5370497,4121715,9492212
-2021-07-16,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5398377,4194292,9592669
-2021-07-17,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5407116,4225662,9632778
-2021-07-18,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5415540,4251616,9667156
-2021-07-19,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5438842,4318541,9757383
-2021-07-20,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5460176,4385481,9845657
-2021-07-21,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5483539,4448817,9932356
-2021-07-22,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5505816,4507316,10013132
-2021-07-23,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5528940,4561922,10090862
-2021-07-24,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5536225,4589498,10125723
-2021-07-25,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5542812,4611477,10154289
-2021-07-26,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5566286,4659921,10226207
-2021-07-27,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5588904,4706423,10295327
-2021-07-28,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5610058,4752274,10362332
-2021-07-29,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5631242,4794090,10425332
-2021-07-30,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5654442,4836522,10490964
-2021-07-31,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5663341,4855992,10519333
-2021-08-01,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5670036,4872115,10542151
-2021-08-02,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5688586,4909563,10598149
-2021-08-03,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5706145,4947567,10653712
-2021-08-04,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5722148,4984186,10706334
-2021-08-05,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5737954,5024543,10762497
-2021-08-06,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5754568,5067693,10822261
-2021-08-07,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5760088,5085794,10845882
-2021-08-08,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5764274,5101491,10865765
-2021-08-09,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5776709,5146457,10923166
-2021-08-10,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5788418,5185918,10974336
-2021-08-11,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5799659,5228954,11028613
-2021-08-12,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5810944,5265939,11076883
-2021-08-13,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5821527,5306137,11127664
-2021-08-14,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5824850,5316792,11141642
-2021-08-15,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5827414,5327134,11154548
-2021-08-16,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5837138,5361106,11198244
-2021-08-17,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5846583,5388102,11234685
-2021-08-18,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5855826,5426836,11282662
-2021-08-19,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5865379,5465079,11330458
-2021-08-20,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5876595,5505147,11381742
-2021-08-21,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5879275,5517863,11397138
-2021-08-22,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5881590,5529799,11411389
-2021-08-23,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5891966,5568886,11460852
-2021-08-24,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5901701,5602021,11503722
-2021-08-25,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5910342,5630091,11540433
-2021-08-26,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5918613,5655927,11574540
-2021-08-27,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5928724,5681600,11610324
-2021-08-28,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5931373,5688545,11619918
-2021-08-29,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5933668,5694929,11628597
-2021-08-30,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5942001,5716470,11658471
-2021-08-31,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5949468,5734302,11683770
-2021-09-01,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5955156,5748066,11703222
-2021-09-02,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5961756,5762074,11723830
-2021-09-03,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5970996,5777525,11748521
-2021-09-04,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5972923,5780976,11753899
-2021-09-05,"Johnson&Johnson, Moderna, Pfizer/BioNTech",5974774,5783698,11758472
-2021-09-06,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5980623,5795970,11776593
-2021-09-07,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5984860,5806889,11791749
-2021-09-08,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5990325,5816607,11806932
-2021-09-09,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5996696,5826338,11823034
-2021-09-10,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",6003884,5838040,11841924
-2021-09-11,"Johnson&Johnson, Moderna, Pfizer/BioNTech",6005243,5840100,11845343
+2021-01-14,"Moderna, Pfizer/BioNTech",101848,8,101856
+2021-01-15,"Moderna, Pfizer/BioNTech",115812,8,115820
+2021-01-16,"Moderna, Pfizer/BioNTech",119190,10,119200
+2021-01-17,"Moderna, Pfizer/BioNTech",121793,651,122444
+2021-01-18,"Moderna, Pfizer/BioNTech",134262,2473,136735
+2021-01-19,"Moderna, Pfizer/BioNTech",146814,5185,151999
+2021-01-20,"Moderna, Pfizer/BioNTech",160442,7829,168271
+2021-01-21,"Moderna, Pfizer/BioNTech",176043,9560,185603
+2021-01-22,"Moderna, Pfizer/BioNTech",190862,10603,201465
+2021-01-23,"Moderna, Pfizer/BioNTech",194156,11474,205630
+2021-01-24,"Moderna, Pfizer/BioNTech",196400,12343,208743
+2021-01-25,"Moderna, Pfizer/BioNTech",206013,15314,221327
+2021-01-26,"Moderna, Pfizer/BioNTech",216525,19284,235809
+2021-01-27,"Moderna, Pfizer/BioNTech",225533,23798,249331
+2021-01-28,"Moderna, Pfizer/BioNTech",232594,29907,262501
+2021-01-29,"Moderna, Pfizer/BioNTech",238789,37780,276569
+2021-01-30,"Moderna, Pfizer/BioNTech",239520,38867,278387
+2021-01-31,"Moderna, Pfizer/BioNTech",240227,40045,280272
+2021-02-01,"Moderna, Pfizer/BioNTech",244185,47965,292150
+2021-02-02,"Moderna, Pfizer/BioNTech",248311,58175,306486
+2021-02-03,"Moderna, Pfizer/BioNTech",252712,69152,321864
+2021-02-04,"Moderna, Pfizer/BioNTech",257601,82105,339706
+2021-02-05,"Moderna, Pfizer/BioNTech",263044,92745,355789
+2021-02-06,"Moderna, Pfizer/BioNTech",263885,95092,358977
+2021-02-07,"Moderna, Pfizer/BioNTech",264733,97578,362311
+2021-02-08,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",268779,108954,377733
+2021-02-09,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",273852,120864,394716
+2021-02-10,"Moderna, Pfizer/BioNTech",279334,134060,413394
+2021-02-11,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",285627,150224,435851
+2021-02-12,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",292357,164898,457255
+2021-02-13,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",293943,167876,461819
+2021-02-14,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",294934,169251,464185
+2021-02-15,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",301319,178579,479898
+2021-02-16,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",310017,187624,497641
+2021-02-17,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",319697,195898,515595
+2021-02-18,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",331987,203929,535916
+2021-02-19,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",343820,211239,555059
+2021-02-20,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",345795,212410,558205
+2021-02-21,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",346903,213424,560327
+2021-02-22,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",357000,219424,576424
+2021-02-23,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",369905,226371,596276
+2021-02-24,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",383749,232380,616129
+2021-02-25,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",401694,237909,639603
+2021-02-26,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",417828,243232,661060
+2021-02-27,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",420831,243782,664613
+2021-02-28,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",423173,244327,667500
+2021-03-01,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",442674,247741,690415
+2021-03-02,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",469846,251273,721119
+2021-03-03,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",500621,255757,756378
+2021-03-04,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",533775,260417,794192
+2021-03-05,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",562508,265803,828311
+2021-03-06,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",574620,266645,841265
+2021-03-07,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",586020,267477,853497
+2021-03-08,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",615634,272295,887929
+2021-03-09,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",651818,278648,930466
+2021-03-10,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",692964,285584,978548
+2021-03-11,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",737641,293930,1031571
+2021-03-12,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",776282,302374,1078656
+2021-03-13,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",793319,303660,1096979
+2021-03-14,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",805399,304794,1110193
+2021-03-15,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",833686,313554,1147240
+2021-03-16,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",872494,324056,1196550
+2021-03-17,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",909903,334527,1244430
+2021-03-18,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",947760,346911,1294671
+2021-03-19,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",982107,360490,1342597
+2021-03-20,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",997209,362505,1359714
+2021-03-21,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",1004595,364049,1368644
+2021-03-22,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",1029005,376507,1405512
+2021-03-23,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",1055523,389824,1445347
+2021-03-24,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",1082332,405520,1487852
+2021-03-25,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",1108603,423336,1531939
+2021-03-26,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",1133341,440793,1574134
+2021-03-27,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",1141753,445621,1587374
+2021-03-28,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",1147286,449751,1597037
+2021-03-29,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",1166308,470400,1636708
+2021-03-30,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",1190921,492513,1683434
+2021-03-31,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",1213933,519524,1733457
+2021-04-01,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",1239466,551459,1790925
+2021-04-02,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",1246329,564232,1810561
+2021-04-03,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",1249913,575133,1825046
+2021-04-04,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",1252385,583928,1836313
+2021-04-05,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",1254736,591091,1845827
+2021-04-06,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",1270796,620279,1891075
+2021-04-07,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",1294127,642398,1936525
+2021-04-08,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",1332613,673264,2005877
+2021-04-09,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",1371846,703271,2075117
+2021-04-10,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",1387225,718542,2105767
+2021-04-11,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",1396950,728552,2125502
+2021-04-12,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",1435016,753530,2188546
+2021-04-13,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",1471103,779442,2250545
+2021-04-14,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",1509801,806758,2316559
+2021-04-15,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",1557485,832429,2389914
+2021-04-16,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",1602015,858012,2460027
+2021-04-17,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",1618628,867017,2485645
+2021-04-18,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",1631561,871986,2503547
+2021-04-19,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",1675442,887369,2562811
+2021-04-20,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",1717542,903176,2620718
+2021-04-21,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",1765219,917430,2682649
+2021-04-22,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",1819644,934767,2754411
+2021-04-23,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",1869555,946743,2816298
+2021-04-24,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",1887354,951964,2839318
+2021-04-25,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",1902012,955954,2857966
+2021-04-26,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",1951568,963476,2915044
+2021-04-27,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2000490,975634,2976124
+2021-04-28,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2059200,989574,3048774
+2021-04-29,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2124699,1005384,3130083
+2021-04-30,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2186856,1015284,3202140
+2021-05-01,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2206139,1018694,3224833
+2021-05-02,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2225021,1020940,3245961
+2021-05-03,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2292220,1025974,3318194
+2021-05-04,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2358633,1034242,3392875
+2021-05-05,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2431734,1043583,3475317
+2021-05-06,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2512076,1054192,3566268
+2021-05-07,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2589313,1064186,3653499
+2021-05-08,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2618705,1065904,3684609
+2021-05-09,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2642865,1067092,3709957
+2021-05-10,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2715568,1074226,3789794
+2021-05-11,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2791620,1082978,3874598
+2021-05-12,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2871419,1092000,3963419
+2021-05-13,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2955388,1101105,4056493
+2021-05-14,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",3034746,1108828,4143574
+2021-05-15,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",3066572,1111003,4177575
+2021-05-16,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",3092310,1112213,4204523
+2021-05-17,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",3164779,1118881,4283660
+2021-05-18,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",3236675,1131843,4368518
+2021-05-19,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",3314089,1146898,4460987
+2021-05-20,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",3389479,1173804,4563283
+2021-05-21,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",3458213,1201429,4659642
+2021-05-22,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",3490532,1212502,4703034
+2021-05-23,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",3512830,1221464,4734294
+2021-05-24,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",3559889,1254953,4814842
+2021-05-25,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",3611693,1290605,4902298
+2021-05-26,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",3679381,1328002,5007383
+2021-05-27,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",3740713,1375236,5115949
+2021-05-28,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",3802361,1421650,5224011
+2021-05-29,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",3831499,1438697,5270196
+2021-05-30,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",3853829,1453080,5306909
+2021-05-31,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",3909519,1500449,5409968
+2021-06-01,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",3968512,1548779,5517291
+2021-06-02,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",4031346,1602661,5634007
+2021-06-03,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",4089547,1662768,5752315
+2021-06-04,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",4152603,1720061,5872664
+2021-06-05,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",4186729,1738822,5925551
+2021-06-06,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",4213625,1753900,5967525
+2021-06-07,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",4277282,1809444,6086726
+2021-06-08,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",4341227,1864324,6205551
+2021-06-09,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",4400352,1928643,6328995
+2021-06-10,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",4454161,1999615,6453776
+2021-06-11,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",4506222,2069203,6575425
+2021-06-12,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",4538191,2089919,6628110
+2021-06-13,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",4562185,2108259,6670444
+2021-06-14,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",4605149,2182509,6787658
+2021-06-15,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",4649753,2254707,6904460
+2021-06-16,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",4692457,2332781,7025238
+2021-06-17,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",4731810,2415713,7147523
+2021-06-18,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",4774158,2496066,7270224
+2021-06-19,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",4795875,2525271,7321146
+2021-06-20,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",4813232,2549016,7362248
+2021-06-21,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",4845714,2627443,7473157
+2021-06-22,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",4878646,2709556,7588202
+2021-06-23,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",4910278,2794651,7704929
+2021-06-24,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",4940094,2884564,7824658
+2021-06-25,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",4971105,2970540,7941645
+2021-06-26,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",4986940,3005258,7992198
+2021-06-27,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5000879,3031823,8032702
+2021-06-28,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5029273,3116885,8146158
+2021-06-29,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5058502,3203253,8261755
+2021-06-30,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5085986,3294075,8380061
+2021-07-01,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5109908,3383957,8493865
+2021-07-02,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5136594,3469626,8606220
+2021-07-03,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5143661,3501058,8644719
+2021-07-04,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5151190,3522807,8673997
+2021-07-05,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5158526,3548103,8706629
+2021-07-06,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5163910,3575647,8739557
+2021-07-07,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5189665,3654474,8844139
+2021-07-08,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5216200,3724666,8940866
+2021-07-09,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5244022,3793805,9037827
+2021-07-10,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5253337,3822350,9075687
+2021-07-11,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5261843,3845179,9107022
+2021-07-12,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5289344,3914173,9203517
+2021-07-13,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5315503,3983938,9299441
+2021-07-14,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5341317,4055837,9397154
+2021-07-15,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5370502,4121718,9492220
+2021-07-16,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5398382,4194295,9592677
+2021-07-17,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5407121,4225665,9632786
+2021-07-18,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5415545,4251619,9667164
+2021-07-19,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5438848,4318544,9757392
+2021-07-20,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5460182,4385484,9845666
+2021-07-21,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5483545,4448821,9932366
+2021-07-22,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5505822,4507320,10013142
+2021-07-23,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5528947,4561926,10090873
+2021-07-24,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5536232,4589502,10125734
+2021-07-25,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5542819,4611481,10154300
+2021-07-26,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5566293,4659925,10226218
+2021-07-27,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5588913,4706429,10295342
+2021-07-28,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5610067,4752280,10362347
+2021-07-29,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5631251,4794096,10425347
+2021-07-30,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5654451,4836528,10490979
+2021-07-31,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5663350,4855998,10519348
+2021-08-01,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5670045,4872121,10542166
+2021-08-02,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5688596,4909569,10598165
+2021-08-03,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5706155,4947573,10653728
+2021-08-04,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5722158,4984192,10706350
+2021-08-05,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5737965,5024549,10762514
+2021-08-06,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5754579,5067699,10822278
+2021-08-07,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5760099,5085800,10845899
+2021-08-08,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5764286,5101497,10865783
+2021-08-09,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5776722,5146463,10923185
+2021-08-10,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5788431,5185924,10974355
+2021-08-11,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5799672,5228960,11028632
+2021-08-12,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5810961,5265945,11076906
+2021-08-13,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5821547,5306146,11127693
+2021-08-14,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5824870,5316802,11141672
+2021-08-15,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5827434,5327144,11154578
+2021-08-16,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5837158,5361116,11198274
+2021-08-17,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5846603,5388112,11234715
+2021-08-18,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5855841,5426846,11282687
+2021-08-19,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5865393,5465089,11330482
+2021-08-20,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5876611,5505157,11381768
+2021-08-21,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5879293,5517873,11397166
+2021-08-22,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5881562,5529805,11411367
+2021-08-23,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5891938,5568892,11460830
+2021-08-24,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5901672,5602027,11503699
+2021-08-25,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5910313,5630097,11540410
+2021-08-26,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5918584,5655933,11574517
+2021-08-27,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5928695,5681606,11610301
+2021-08-28,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5931344,5688551,11619895
+2021-08-29,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5933639,5694935,11628574
+2021-08-30,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5941971,5716477,11658448
+2021-08-31,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5949438,5734309,11683747
+2021-09-01,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5955126,5748073,11703199
+2021-09-02,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5961726,5762085,11723811
+2021-09-03,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5970966,5777536,11748502
+2021-09-04,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5972894,5780987,11753881
+2021-09-05,"Johnson&Johnson, Moderna, Pfizer/BioNTech",5974745,5783709,11758454
+2021-09-06,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5980594,5795981,11776575
+2021-09-07,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5984831,5806900,11791731
+2021-09-08,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5990296,5816618,11806914
+2021-09-09,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5996673,5826356,11823029
+2021-09-10,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",6003913,5838153,11842066
+2021-09-11,"Johnson&Johnson, Moderna, Pfizer/BioNTech",6005550,5840504,11846054
+2021-09-12,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",6006381,5841829,11848210
