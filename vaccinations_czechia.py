@@ -21,6 +21,7 @@ def enrich_total_vaccinations(input: pd.DataFrame) -> pd.DataFrame:
 vaccine_mapping = {
     "Comirnaty": "Pfizer/BioNTech",
     "Spikevax": "Moderna",
+    "SPIKEVAX": "Moderna",
     "VAXZEVRIA": "Oxford/AstraZeneca",
     "COVID-19 Vaccine Janssen": "Johnson&Johnson",
 }
