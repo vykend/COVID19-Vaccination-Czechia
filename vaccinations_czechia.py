@@ -33,6 +33,7 @@ def read(source: str) -> pd.DataFrame:
 
 def check_columns(input: pd.DataFrame) -> pd.DataFrame:
     expected = [
+        "id",
         "datum",
         "vakcina",
         "kraj_nuts_kod",
