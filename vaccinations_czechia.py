@@ -54,7 +54,7 @@ def check_columns(input: pd.DataFrame) -> pd.DataFrame:
 
 
 def check_vaccine_names(input: pd.DataFrame) -> pd.DataFrame:
-    df = df.dropna(subset=["vakcina"])
+    input = input.dropna(subset=["vakcina"])
     unknown_vaccines = set(input.vakcina.unique()).difference(
         set(vaccine_mapping.keys())
     )
