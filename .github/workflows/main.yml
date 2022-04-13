@@ -24,7 +24,7 @@ jobs:
         run: python vaccinations_czechia.py
 
       - name: push
-        uses: github-actions-x/commit@v2.7
+        uses: github-actions-x/commit@v2.9
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           push-branch: 'master'
