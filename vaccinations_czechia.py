@@ -26,8 +26,8 @@ vaccine_mapping = {
     "COVID-19 Vaccine Janssen": "Johnson&Johnson",
     "Comirnaty 5-11": "Pfizer/BioNTech",
     "Nuvaxovid": "Novavax",
-    "Sinovac": "Čína"
-    "Sinopharm": "Čína"
+    "Sinovac": "Čína",
+    "Sinopharm": "Čína",
     "Covishield": "Indie/AstraZeneca"
 }
 
