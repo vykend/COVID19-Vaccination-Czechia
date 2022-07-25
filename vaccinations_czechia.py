@@ -39,17 +39,7 @@ def read(source: str) -> pd.DataFrame:
 
 
 def check_columns(input: pd.DataFrame) -> pd.DataFrame:
-    expected = [
-        "id",
-        "datum",
-        "vakcina",
-        "kraj_nuts_kod",
-        "kraj_nazev",
-        "zarizeni_kod",
-        "zarizeni_nazev",
-        "poradi_davky",
-        "vekova_skupina",
-    ]
+    expected = ['id', 'datum', 'vakcina', 'vakcina_kod', 'poradi_davky', 'kraj_nazev', 'kraj_nuts_kod', 'orp_bydliste', 'orp_bydliste_kod', 'pocet_davek']
     if list(input.columns) != expected:
         raise ValueError(
             "Wrong columns. Was expecting {} and got {}".format(
@@ -83,11 +73,11 @@ def base_pipeline(input: pd.DataFrame) -> pd.DataFrame:
 
 def breakdown_per_vaccine(input: pd.DataFrame) -> pd.DataFrame:
     return (
-        input.groupby(by=["datum", "vakcina"], as_index=False)
-        .size()
+        input.groupby(by=["datum", "vakcina"], as_index=False)["pocet_davek"]
+        .sum()
         .sort_values("datum")
         .assign(
-            size=lambda df: df.groupby(by=["vakcina"], as_index=False)["size"].cumsum()
+            size=lambda df: df.groupby(by=["vakcina"], as_index=False)["pocet_davek"].cumsum()
         )
         .rename(
             columns={
@@ -97,6 +87,7 @@ def breakdown_per_vaccine(input: pd.DataFrame) -> pd.DataFrame:
             }
         )
     )
+    
     
 def breakdown_per_date_and_region(input: pd.DataFrame) -> pd.DataFrame:
     temp = input.groupby(["datum","kraj_nazev"]).size().unstack(fill_value=0)
@@ -126,11 +117,10 @@ def breakdown_per_date_and_region(input: pd.DataFrame) -> pd.DataFrame:
 
 def breakdown_per_region(input: pd.DataFrame) -> pd.DataFrame:
     return (
-        input.groupby(by=["kraj_nazev"], as_index=False)
-        .size()
+        input.groupby(by=["kraj_nazev"], as_index=False)["pocet_davek"].sum()
         .sort_values("kraj_nazev")
         .assign(
-            size=lambda df: df.groupby(by=["kraj_nazev"], as_index=False)["size"].cumsum()
+            size=lambda df: df.groupby(by=["kraj_nazev"], as_index=False)["pocet_davek"].cumsum()
         )
         .rename(
             columns={
@@ -143,8 +133,7 @@ def breakdown_per_region(input: pd.DataFrame) -> pd.DataFrame:
 
 def aggregate_by_date_vaccine(input: pd.DataFrame) -> pd.DataFrame:
     return (
-        input.groupby(by=["datum", "vakcina", "poradi_davky"])
-        .size()
+        input.groupby(by=["datum", "vakcina", "poradi_davky"])["pocet_davek"].sum()
         .unstack()
         .reset_index()
     )
@@ -157,6 +146,8 @@ def aggregate_by_date(input: pd.DataFrame) -> pd.DataFrame:
             vaccine=("vakcina", lambda x: ", ".join(sorted(set(x)))),
             people_vaccinated=(1, "sum"),  # 1 means 1st dose
             people_fully_vaccinated=(2, "sum"),
+            people_boosted_1=(3,"sum"),
+            people_boosted_2=(4,"sum"),
         )
         .reset_index()
     )
@@ -226,7 +217,7 @@ def global_pipeline(input: pd.DataFrame) -> pd.DataFrame:
 
 
 def main():
-    source = "https://onemocneni-aktualne.mzcr.cz/api/v2/covid-19/ockovaci-mista.csv"
+    source = "https://onemocneni-aktualne.mzcr.cz/api/v2/covid-19/ockovani-geografie.csv"
 
     global_output = "aggregation.csv"
     by_manufacturer_output = "by_manufacturer.csv"
