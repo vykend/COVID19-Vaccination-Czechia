@@ -181,6 +181,8 @@ def enrich_cumulated_sums(input: pd.DataFrame) -> pd.DataFrame:
                 "total_vaccinations",
                 "people_vaccinated",
                 "people_fully_vaccinated",
+                "people_boosted_1",
+                "people_boosted_2",
             ]
         }
     )
