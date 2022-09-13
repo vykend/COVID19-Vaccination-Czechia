@@ -25,6 +25,7 @@ vaccine_mapping = {
     "VAXZEVRIA": "Oxford/AstraZeneca",
     "COVID-19 Vaccine Janssen": "Johnson&Johnson",
     "Comirnaty 5-11": "Pfizer/BioNTech",
+    "Comirnaty Original/Omicron BA.1": "Pfizer/BioNTech",
     "Nuvaxovid": "Novavax",
     "Sinovac": "Čína",
     "Sinopharm": "Čína",
