@@ -22,8 +22,8 @@ jobs:
             if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
       - name: Save current vaccination data
         run: python vaccinations_czechia.py
-      - name: push
-      - run: |
+      - name: Push
+        run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add .
