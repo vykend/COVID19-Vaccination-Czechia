@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - name: Set up python 3.10
         uses: actions/setup-python@v2
         with:
@@ -24,12 +24,9 @@ jobs:
         run: python vaccinations_czechia.py
 
       - name: push
-        uses: github-actions-x/commit@v2.9
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          push-branch: 'master'
-          commit-message: 'add todays vaccination data'
-          force-add: 'true'
-          files: aggregation.csv by_date_and_region.csv by_manufacturer.csv by_region.csv registrations_by_date.csv registrations_by_date_and_region.csv registrations_by_region.csv
-          name: vykend
-          email: vykend@users.noreply.github.com
+      - run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git commit -m "add today vaccination data"
+          git push
