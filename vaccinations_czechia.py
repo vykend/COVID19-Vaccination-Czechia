@@ -25,14 +25,20 @@ vaccine_mapping = {
     "VAXZEVRIA": "Oxford/AstraZeneca",
     "COVID-19 Vaccine Janssen": "Johnson&Johnson",
     "Comirnaty 5-11": "Pfizer/BioNTech Kids",
+    "Comirnaty 6m-4": "Pfizer/BioNTech Mini",
     "Comirnaty Original/Omicron BA.1": "Pfizer/BioNTech original + BA.1",
     "Spikevax bivalent Original/Omicron BA.1": "Moderna bivalent BA.1",
+    "SPIKEVAX BIVALENT ORIGINAL/OMICRON BA.4-5": "Moderna bivalent BA.4-5",
     "Comirnaty Original/Omicron BA.4/BA.5": "Pfizer/BioNTech original + BA.4/5",
-    "Nuvaxovid": "Novavax",
+    "Nuvaxovid": "Indie",
+    "Covovax": "Indie",
     "Sinovac": "Čína",
     "Sinopharm": "Čína",
+    "Valneva": "Valneva",
     "Covishield": "Indie/AstraZeneca",
-    "COVAXIN": "Indie/Bahrat Biotech"
+    "COVAXIN": "Indie/Bahrat Biotech",
+    "Sputnik V": "Sputnik",
+    
 }
 
 one_dose_vaccines = ["Johnson&Johnson"]
