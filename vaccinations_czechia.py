@@ -30,6 +30,7 @@ vaccine_mapping = {
     "Spikevax bivalent Original/Omicron BA.1": "Moderna bivalent BA.1",
     "SPIKEVAX BIVALENT ORIGINAL/OMICRON BA.4-5": "Moderna bivalent BA.4-5",
     "Comirnaty Original/Omicron BA.4/BA.5": "Pfizer/BioNTech original + BA.4/5",
+    "Comirnaty Omicron XBB.1.5.": "Pfizer/BioNTech XBB.1.5",
     "Nuvaxovid": "Indie",
     "Covovax": "Indie",
     "Sinovac": "Čína",
