@@ -33,6 +33,7 @@ vaccine_mapping = {
     "Comirnaty Omicron XBB.1.5.": "Pfizer/BioNTech XBB.1.5",
     "Comirnaty Omicron XBB.1.5. 5-11": "Pfizer/BioNTech Kids XBB.1.5",
     "Nuvaxovid": "Indie",
+    "Nuvaxovid XBB 1.5": "Indie",
     "Covovax": "Indie",
     "Sinovac": "Čína",
     "Sinopharm": "Čína",
