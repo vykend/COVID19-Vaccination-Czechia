@@ -32,6 +32,7 @@ vaccine_mapping = {
     "Comirnaty Original/Omicron BA.4/BA.5": "Pfizer/BioNTech original + BA.4/5",
     "Comirnaty Omicron XBB.1.5.": "Pfizer/BioNTech XBB.1.5",
     "Comirnaty Omicron XBB.1.5. 5-11": "Pfizer/BioNTech Kids XBB.1.5",
+    "COMIRNATY OMICRON XBB.1.5 6m-4": "Pfizer/BioNTech Mini XBB.1.5",
     "Nuvaxovid": "Indie",
     "Nuvaxovid XBB 1.5": "Indie",
     "Covovax": "Indie",
