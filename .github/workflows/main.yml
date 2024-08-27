@@ -1,9 +1,4 @@
 name: Get actual data
-
-on:
-  push:
-  schedule:
-    - cron: 30 7 * * *
     
 jobs:
   build:
